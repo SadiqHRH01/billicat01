@@ -1,0 +1,311 @@
+/*-----------------------------------------------------------------------------------
+    Template Name: Gunterverse
+    Template URI: https://boastack.com/
+    Description: A virtual blockchain-based metaverse
+    Author: Boastack
+    Author URI: https://boastack.com/
+    Version: 1.0
+-----------------------------------------------------------------------------------*/
+@import url('../fonts/Atyp/stylesheet.css');
+@import url('../fonts/fontawesome/css/all.min.css');
+
+/*----------------------------------------*/
+/*  1. Theme Default
+/*----------------------------------------*/
+body {
+	color: #fff;
+	font-size: 1rem;
+    line-height: 1.5;
+    font-family: 'Atyp Display', sans-serif;
+	background: url('../images/background.png') no-repeat center center / cover;
+    position: relative;
+}
+#particles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+a {
+	transition: all 0.3s ease-in;
+	text-decoration: none;
+}
+a:hover, a:focus {
+    color: #EDA3FF;
+}
+p {
+    color: #B2BBD6;
+	margin: 0 0 15px;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: #fff;
+    font-weight: 600;
+    font-family: 'Atyp Display', sans-serif;
+	margin: 0 0 15px;
+}
+.text-primary {
+    color: #EDA3FF !important;
+}
+.xl-padding {
+    padding: 80px 0;
+}
+.xl-gradient {
+    --border-width: 3px;
+    --border-radius: 30px;
+    border: 0;
+    padding: 3rem;
+    position: relative;
+    background: linear-gradient(265.31deg, #B4F1FF 3.07%, #EDA3FF 59.34%, #FDCAE4 96.21%);
+    border-radius: var(--border-radius);
+    backdrop-filter: blur(800px);
+    z-index: 1;
+}
+.xl-gradient::before {
+    content: " ";
+    display: block;
+    height: calc(100% - calc(var(--border-width) * 2));
+    width: calc(100% - calc(var(--border-width) * 2));
+    background: url("../images/background.png") no-repeat center center / cover;
+    position: absolute;
+    top: var(--border-width);
+    left: var(--border-width);
+    border-radius: calc(var(--border-radius) - var(--border-width));
+    z-index: -1;
+}
+.transparent {
+    background: transparent;
+}
+.btn-primary {
+    color: #100632;
+    padding: 14px 28px;
+    background: linear-gradient(265.31deg, rgba(180, 241, 255, 0.9) 3.07%, rgba(237, 163, 255, 0.9) 59.34%, rgba(253, 202, 228, 0.9) 96.21%);
+    border-radius: 5px;
+    border-width: 0;
+}
+.btn-gradient {
+    --border-width: 2px;
+    --border-radius: 5px;
+    border: 0;
+    padding: 14px 28px;
+    position: relative;
+    background: linear-gradient(265.31deg, #B4F1FF 3.07%, #EDA3FF 59.34%, #FDCAE4 96.21%); 
+    border-radius: var(--border-radius);
+    z-index: 1;
+}
+.btn-gradient::before {
+    content: " ";
+    display: block;
+    height: calc(100% - calc(var(--border-width) * 2));
+    width: calc(100% - calc(var(--border-width) * 2));
+    background: linear-gradient(45deg, rgb(3, 10, 45), rgb(2, 4, 20));
+    position: absolute;
+    top: var(--border-width);
+    left: var(--border-width);
+    border-radius: calc(var(--border-radius) - var(--border-width));
+    z-index: -1;
+}
+.btn-navbar::before {
+    background: rgb(20, 10, 65);
+}
+.btn, .navbar-toggler:focus {
+    box-shadow: none;
+}
+@keyframes glitch {
+    2%, 64% {
+        transform: translate(2px,0) skew(0deg);
+    }
+    4%, 60% {
+        transform: translate(-2px,0) skew(0deg);
+    }
+    62% {
+        transform: translate(0,0) skew(5deg);
+    }
+}
+/*----------------------------------------*/
+/*  2. Header Menu
+/*----------------------------------------*/
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+.header .navbar-brand {
+    margin-right: 2rem;
+}
+.header .navbar-brand svg {
+    max-width: 180px;
+}
+.header .navbar-nav .nav-item .nav-link {
+    color: #fff;
+    font-size: 1rem;
+    padding: 1rem 1rem;
+    text-transform: capitalize;
+}
+.header .navbar-nav .nav-item .nav-link:hover,
+.header .navbar-nav .nav-item .nav-link:focus, 
+.header .navbar-nav .nav-item .nav-link.active {
+	color: #EDA3FF;
+}
+.header .navbar-dark .navbar-toggler {
+    background: transparent;
+    border: none;
+    outline: 0;
+}
+.header .navbar-nav .nav-item:hover .dropdown-menu {
+    display: block;
+    margin-top: 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in;
+}
+.header .navbar-nav .nav-item .dropdown-toggle::after {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-left: 0.255em;
+    vertical-align: middle;
+    content: "\f078";
+    font-family: "Font Awesome 6 Free";
+    border: none;
+}
+.header .navbar-nav .nav-item .dropdown-item {
+    color: #100632;
+}
+.header .navbar-nav .nav-item .dropdown-item:hover,
+.header .navbar-nav .nav-item .dropdown-item:focus {
+    background: linear-gradient(265.31deg, rgba(180, 241, 255, 0.35) 3.07%, rgba(237, 163, 255, 0.35) 59.34%, rgba(253, 202, 228, 0.35) 96.21%);
+}
+/*----------------------------------------*/
+/*  3. Hero Area
+/*----------------------------------------*/
+.hero-area {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-area .heading { 
+    font-weight: 700; 
+    background: #667EEA linear-gradient(to right, #667EEA, #EDA3FF); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    animation: glitch 3s linear infinite;
+}
+/*--------------------------------*/
+/* 4. Ecosystem
+/*--------------------------------*/
+.has-primary {
+    border-width: 0;
+    border-radius: 10px;
+    background: rgba(34, 56, 147, 0.5);
+}
+.has-primary img {
+    margin: auto;
+    padding-top: 2rem;
+}
+.has-primary .card-body {
+    padding: 2rem;
+}
+/*----------------------------------------*/
+/*  5. Tokenomics
+/*----------------------------------------*/
+.has-secondary {
+    max-width: 200px;
+    max-height: 200px;
+    padding: 30px 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    background: rgba(18, 1, 43, 0.5);
+}
+.has-secondary .card-title {
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 1;
+    background: #B4F1FF linear-gradient(to right, #B4F1FF, #EDA3FF); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+}
+/*----------------------------------------*/
+/*  6. Community
+/*----------------------------------------*/
+.community-body {
+    --border-width: 1px;
+    --border-radius: 10px;
+    border: 0;
+    padding: 3rem;
+    position: relative;
+    background: linear-gradient(265.31deg, rgba(180, 241, 255, 0.7) 3.07%, rgba(237, 163, 255, 0.7) 59.34%, rgba(253, 202, 228, 0.7) 96.21%);
+    border-radius: var(--border-radius);
+    backdrop-filter: blur(250px);
+    z-index: 1;
+}
+.community-body::before {
+    content: " ";
+    display: block;
+    height: calc(100% - calc(var(--border-width) * 2));
+    width: calc(100% - calc(var(--border-width) * 2));
+    background: rgba(08, 08, 08, 1);
+    position: absolute;
+    top: var(--border-width);
+    left: var(--border-width);
+    border-radius: calc(var(--border-radius) - var(--border-width));
+    z-index: -1;
+}
+.community-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 25px;
+    border-radius: 10px;
+    background: rgba(35, 20, 45, 1);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+}
+.community-left {
+    position: relative;
+    overflow: hidden;
+    max-width: 380px;
+}
+.community-shadow {
+    position: absolute;
+    left: auto;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    width: 35%;
+    background: linear-gradient(270deg, #23152d 65.16%, rgba(36, 13, 41, 0) 100%);
+
+}
+.btn-community::before {
+    background: rgba(35, 20, 45, 1);
+}
+/*----------------------------------------*/
+/*  7. Footer
+/*----------------------------------------*/
+#footer .nav {
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+#footer .nav-title {
+    font-size: 1.2rem;
+    color: #B2BBD6;
+}
+#footer .nav-link {
+    color: #fff;
+    padding: 0.5rem 0;
+    transition: all 0.3s ease-in;
+}
+#footer .nav-link:hover {
+    color: #EDA3FF;
+    padding-left: 5px;
+}
+#footer .copyright {
+    margin-top: 3rem;
+}
+#footer .hr-copyright {
+    margin-bottom: 3rem;
+    background: linear-gradient(265.31deg, rgba(180, 241, 255, 0.7) 3.07%, rgba(237, 163, 255, 0.7) 59.34%, rgba(253, 202, 228, 0.7) 96.21%);
+}
+#footer .copyright a {
+    color: #B2BBD6;
+}

@@ -1,0 +1,60 @@
+<svg width="81" height="80" viewBox="0 0 81 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="coin-crypto-transfer">
+<path id="Path 250" d="M2.37451 50.7649C2.37451 50.7649 15.8077 50.7649 17.7824 50.7649C19.757 50.7649 21.453 52.2644 21.453 54.5042C21.453 56.744 21.453 69.4385 21.453 71.7347C21.453 74.031 19.866 75.8244 17.7824 75.8244C15.6987 75.8244 2.63367 75.8244 2.63367 75.8244" stroke="url(#paint0_linear_312_774)" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Path 252" d="M39.2489 68.9111C39.506 67.9542 40.1347 65.5033 42.9157 65.5033C45.6967 65.5033 54.3931 65.5033 55.9785 65.5033C57.5639 65.5033 59.349 63.9775 59.349 62.2273C59.349 60.477 58.4185 58.6618 55.9785 58.6618C53.5385 58.6618 47.037 58.6618 45.894 58.6618C44.7511 58.6618 43.5165 58.3953 41.1967 57.3965C38.877 56.3978 36.6921 55.6751 34.4948 54.6972C32.2976 53.7194 30.911 53.903 29.6293 53.903C28.3475 53.903 21.5366 53.903 21.5366 53.903" stroke="url(#paint1_linear_312_774)" stroke-linecap="round" stroke-linejoin="round"/>
+<circle id="Oval 22" cx="15.7022" cy="69.8868" r="1.73836" stroke="url(#paint2_linear_312_774)" stroke-linecap="round" stroke-linejoin="round"/>
+<circle id="Oval 22 Copy 2" cx="9.9073" cy="69.8868" r="1.73836" stroke="url(#paint3_linear_312_774)" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Path 251" d="M21.6147 72.2296C21.6147 72.2296 26.2616 72.2296 28.0663 72.2296C29.871 72.2296 43.23 77.934 45.0869 78.7282C46.9439 79.5224 49.1396 79.7037 51.1962 78.6353C53.2528 77.567 76.8515 65.4409 78.7748 64.5719C80.698 63.7028 80.8851 61.5648 79.9657 59.7537C79.0464 57.9426 76.754 58.0344 75.098 58.8092C73.442 59.5839 58.5175 64.5719 58.5175 64.5719" stroke="url(#paint4_linear_312_774)" stroke-linecap="round" stroke-linejoin="round"/>
+<circle id="Oval 40" cx="57.6783" cy="33.8073" r="14.9976" stroke="url(#paint5_linear_312_774)" stroke-linecap="round" stroke-linejoin="round"/>
+<circle id="Oval 40_2" cx="41.7432" cy="6.6241" r="5.6241" stroke="url(#paint6_linear_312_774)" stroke-linecap="round" stroke-linejoin="round"/>
+<circle id="Oval 40 Copy" cx="26.7457" cy="26.3084" r="5.6241" stroke="url(#paint7_linear_312_774)" stroke-linecap="round" stroke-linejoin="round"/>
+<circle id="Oval Copy 192" cx="72.6758" cy="33.8073" r="2.06205" transform="rotate(-90 72.6758 33.8073)" fill="white" stroke="white" stroke-width="1.5"/>
+<circle id="Oval Copy 192_2" cx="42.6807" cy="33.8073" r="2.06205" transform="rotate(-90 42.6807 33.8073)" fill="white" stroke="white" stroke-width="1.5"/>
+<circle id="Oval Copy 193" cx="41.7432" cy="6.6241" r="2.06205" transform="rotate(-90 41.7432 6.6241)" fill="white" stroke="white" stroke-width="1.5"/>
+<circle id="Oval Copy 194" cx="26.7456" cy="26.3084" r="2.06205" transform="rotate(-90 26.7456 26.3084)" fill="white" stroke="white" stroke-width="1.5"/>
+<circle id="Oval Copy 195" cx="3.31205" cy="51.1483" r="2.06205" transform="rotate(-90 3.31205 51.1483)" fill="white" stroke="white" stroke-width="1.5"/>
+<circle id="Oval Copy 195_2" cx="3.31205" cy="75.988" r="2.06205" transform="rotate(-90 3.31205 75.988)" fill="white" stroke="white" stroke-width="1.5"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_312_774" x1="21.453" y1="60.9056" x2="2.30001" y2="62.1018" gradientUnits="userSpaceOnUse">
+<stop stop-color="#B4F1FF"/>
+<stop offset="0.604167" stop-color="#EDA3FF"/>
+<stop offset="1" stop-color="#FDCAE4"/>
+</linearGradient>
+<linearGradient id="paint1_linear_312_774" x1="59.349" y1="59.9681" x2="22.7996" y2="67.5158" gradientUnits="userSpaceOnUse">
+<stop stop-color="#B4F1FF"/>
+<stop offset="0.604167" stop-color="#EDA3FF"/>
+<stop offset="1" stop-color="#FDCAE4"/>
+</linearGradient>
+<linearGradient id="paint2_linear_312_774" x1="17.4406" y1="69.5553" x2="13.9601" y2="69.8409" gradientUnits="userSpaceOnUse">
+<stop stop-color="#B4F1FF"/>
+<stop offset="0.604167" stop-color="#EDA3FF"/>
+<stop offset="1" stop-color="#FDCAE4"/>
+</linearGradient>
+<linearGradient id="paint3_linear_312_774" x1="11.6457" y1="69.5553" x2="8.16518" y2="69.8409" gradientUnits="userSpaceOnUse">
+<stop stop-color="#B4F1FF"/>
+<stop offset="0.604167" stop-color="#EDA3FF"/>
+<stop offset="1" stop-color="#FDCAE4"/>
+</linearGradient>
+<linearGradient id="paint4_linear_312_774" x1="80.5" y1="66.8214" x2="24.1113" y2="79.7344" gradientUnits="userSpaceOnUse">
+<stop stop-color="#B4F1FF"/>
+<stop offset="0.604167" stop-color="#EDA3FF"/>
+<stop offset="1" stop-color="#FDCAE4"/>
+</linearGradient>
+<linearGradient id="paint5_linear_312_774" x1="72.6759" y1="30.9477" x2="42.6482" y2="33.4111" gradientUnits="userSpaceOnUse">
+<stop stop-color="#B4F1FF"/>
+<stop offset="0.604167" stop-color="#EDA3FF"/>
+<stop offset="1" stop-color="#FDCAE4"/>
+</linearGradient>
+<linearGradient id="paint6_linear_312_774" x1="47.3673" y1="5.55174" x2="36.107" y2="6.47554" gradientUnits="userSpaceOnUse">
+<stop stop-color="#B4F1FF"/>
+<stop offset="0.604167" stop-color="#EDA3FF"/>
+<stop offset="1" stop-color="#FDCAE4"/>
+</linearGradient>
+<linearGradient id="paint7_linear_312_774" x1="32.3698" y1="25.2361" x2="21.1094" y2="26.1599" gradientUnits="userSpaceOnUse">
+<stop stop-color="#B4F1FF"/>
+<stop offset="0.604167" stop-color="#EDA3FF"/>
+<stop offset="1" stop-color="#FDCAE4"/>
+</linearGradient>
+</defs>
+</svg>
